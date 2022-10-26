@@ -1,0 +1,31 @@
+package devops.atu;
+
+import junit.framework.*;
+
+
+public class NumbersTest extends TestCase{
+	
+	Numbers numbers = new Numbers();
+   
+	//test add method
+	public void testAdd() {
+		fail("Not yet implemented");
+	}
+	
+	private void fail(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void testSubtract() {
+		fail("Not yet implemented");
+	}
+	
+	public void testLargest() {
+		fail("Not yet implemented");
+	}
+
+	public void testSmallest() {
+		fail("Not yet implemented");
+	}
+}

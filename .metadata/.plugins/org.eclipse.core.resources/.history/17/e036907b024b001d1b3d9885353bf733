@@ -1,0 +1,35 @@
+package devops.atu;
+
+public class Numbers {
+
+	public int sum(int a, int b){
+		int total = 0;
+		total = a + b;
+		
+		System.out.println("The sum of a and b is =" + total);
+		return (total);
+	}
+	
+	public int subtract(int e, int f){
+		int total = 0;
+		total = e - f;
+		
+		System.out.println("Subtracting f from e is =" + total);
+		return (total);
+	
+	}
+	
+	public static void largest(){
+		
+	}
+
+	public static void smallest(){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

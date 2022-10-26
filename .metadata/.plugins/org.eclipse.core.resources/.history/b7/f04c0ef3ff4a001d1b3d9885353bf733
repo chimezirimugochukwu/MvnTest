@@ -1,0 +1,40 @@
+package devops.atu;
+
+import junit.framework.*;
+
+
+public class NumbersTest extends TestCase{
+	
+	Numbers numbers = new Numbers();
+   
+	//test add method
+	public boolean testAdd() {
+		
+		if (Numbers.sum(5,2) == 7)
+		  return true;
+		  else
+			  return false;
+		    		
+		
+		//fail("Not yet implemented");
+	}
+	
+	
+
+	public void testSubtract() {
+		int total = 0;
+		total = numbers.subtract(8,3);
+		assertTrue(total == 5);
+ 
+		
+		//fail("Not yet implemented");
+	}
+	
+	public void testLargest() {
+		fail("Not yet implemented");
+	}
+
+	public void testSmallest() {
+		fail("Not yet implemented");
+	}
+}
