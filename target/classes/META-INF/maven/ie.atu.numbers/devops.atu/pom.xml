@@ -4,4 +4,7 @@
   <artifactId>devops.atu</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Java numbers test</name>
+  <properties>
+          <java.versoin>13.0.1</java.versoin>
+  </properties>
 </project>
